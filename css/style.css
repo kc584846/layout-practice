@@ -40,9 +40,17 @@ h4 {
 ========================================== */
 
 header{
-  background-color: #cccccc; /* grey */
+  background-color: green;
+  font-style: italic;
   
-  
+}
+
+.article h1{
+    color: green;
+}
+
+.sidebar h2{
+    color: blue;
 }
 
 footer{
@@ -53,19 +61,21 @@ footer{
 
 .content-wrapper{
   background-color:#fafa00; /* yellow */
-  
+  width: 80%;
+  margin: 10px auto;  
   
 }
 
 .article{
-  background-color: #f0be86; /* kind of orange */
-  
-  
+  background-color: white;
+  float: left;
+  width: 60%;
 }
 
 .sidebar{
-  background-color: #ffaecf; /* kind of pink */
-  
+  background-color: gray;
+  float: left;
+  width: 40%;
   
 }
 
